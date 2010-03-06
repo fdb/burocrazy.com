@@ -1,0 +1,15 @@
+This is the source for the www.burocrazy.com website.
+
+It uses the Hyde static website generator (http://github.com/lakshmivyas/hyde), itself inspired by Jekyll (http://github.com/mojombo/jekyll).
+
+The content and layout are neatly separated: all content is in the "content" folder, and the templates are in the "layout" folder. There is an additional content type, called "project", which has a teaser, client and images. 
+
+To use:
+
+sudo easy_install django
+sudo easy_install pyYAML
+sudo easy_install markdown
+git clone git://github.com/lakshmivyas/hyde.git
+python hyde.py -g -s ~/Sites/burocrazy
+
+Results are in the "deploy" subdirectory. You can use rsync to upload it to the webserver.
