@@ -1,0 +1,8 @@
+{% extends "_base.html" %}
+{% block content_body %}
+{% filter typogrify %}
+{% markdown %}
+{% block page %}{% endblock %}
+{% endmarkdown %}
+{% endfilter %}
+{% endblock %}

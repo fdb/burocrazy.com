@@ -1,0 +1,4 @@
+*.pyc
+deploy
+deploy_tmp
+*.log
