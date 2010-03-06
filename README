@@ -12,4 +12,4 @@ sudo easy_install markdown
 git clone git://github.com/lakshmivyas/hyde.git
 python hyde.py -g -s ~/Sites/burocrazy
 
-Results are in the "deploy" subdirectory. You can use rsync to upload it to the webserver.
+Results are in the "deploy" subdirectory. The included "sync_to_server" scripts uses rsync to upload it to the webserver.
