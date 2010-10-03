@@ -9,7 +9,19 @@ To use:
 sudo easy_install django
 sudo easy_install pyYAML
 sudo easy_install markdown
+
+cd $HOME
+mkdir -p Python
+cd Python
 git clone git://github.com/lakshmivyas/hyde.git
-python hyde.py -g -s ~/Sites/burocrazy
+
+Then, in the project directory:
+
+$HOME/Python/hyde/hyde.py -g
 
 Results are in the "deploy" subdirectory. The included "sync_to_server" scripts uses rsync to upload it to the webserver.
+
+To try with the live webserver:
+
+sudo easy_install cherrypy
+$HOME/Python/hyde/hyde.py -w

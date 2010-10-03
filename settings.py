@@ -29,7 +29,7 @@ GENERATE_ABSOLUTE_FS_URLS = False
 # to map the clean urls to the actual html files.  The HtaccessGenerator site
 # post processor is capable of automatically generating the necessary
 # RewriteRules for use with Apache.
-GENERATE_CLEAN_URLS = True
+GENERATE_CLEAN_URLS = False
 
 # A list of filenames (without extensions) that will be considered listing
 # pages for their enclosing folders.
@@ -112,7 +112,7 @@ GROWL = None
 # path for YUICompressor, or None if you don't
 # want to compress JS/CSS. Project homepage:
 # http://developer.yahoo.com/yui/compressor/
-YUI_COMPRESSOR = "./lib/yuicompressor-2.4.1.jar"
+YUI_COMPRESSOR = "./lib/yuicompressor-2.4.2.jar"
 #YUI_COMPRESSOR = None 
 
 # path for Closure Compiler, or None if you don't
