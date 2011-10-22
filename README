@@ -1,27 +1,40 @@
-This is the source for the www.burocrazy.com website.
+This is the source for the [Burocrazy][] website.
 
-It uses the Hyde static website generator (http://github.com/lakshmivyas/hyde), itself inspired by Jekyll (http://github.com/mojombo/jekyll).
+It uses [Jekyll][] to transform it into a static site that gets pushed to my server at [Linode][].
 
-The content and layout are neatly separated: all content is in the "content" folder, and the templates are in the "layout" folder. There is an additional content type, called "project", which has a teaser, client and images. 
+Installing on Mac
+-----------------
+Install [Xcode][] first.
 
-To use:
+    sudo gem update --system
+    sudo gem install rake jekyll RedCloth
+    sudo easy_install pygments
 
-sudo easy_install django
-sudo easy_install pyYAML
-sudo easy_install markdown
+Installing on Ubuntu
+--------------------
 
-cd $HOME
-mkdir -p Python
-cd Python
-git clone git://github.com/lakshmivyas/hyde.git
+    sudo apt-get install ruby rubygems
+    sudo gem install rubygems-update
+    sudo gem install rake jekyll RedCloth
+    sudo easy_install pygments
 
-Then, in the project directory:
+Running
+-------
 
-$HOME/Python/hyde/hyde.py -g
+To build the website:
 
-Results are in the "deploy" subdirectory. The included "sync_to_server" scripts uses rsync to upload it to the webserver.
+    rake
 
-To try with the live webserver:
+To run the built-in server:
 
-sudo easy_install cherrypy
-$HOME/Python/hyde/hyde.py -w
+    rake server
+
+License
+-------
+Text & images on this website are licensed under the [Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License][cc].
+
+[Burocrazy]: http://www.burocrazy.com/
+[Jekyll]: http://github.com/mojombo/jekyll
+[Linode]: http://www.linode.com/?r=4be4bc35d12677cff12e393c9f4dd167d9eb6dfb
+[Xcode]: http://itunes.apple.com/us/app/xcode/id422352214
+[cc]: http://creativecommons.org/licenses/by-nc-nd/3.0/

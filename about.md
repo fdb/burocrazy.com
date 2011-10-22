@@ -1,8 +1,7 @@
-{% extends "_page.html" %}
-{%hyde
-    title: "About"
-%}
-{% block page %}
+---
+layout: default
+title: About
+---
 Burocrazy is a small design firm with just two people: Tom and Frederik. We both work at St. Lucas School of Arts, and Burocrazy allows us to do have one foot in reality and the other foot in the academic world.
 
 We have a keen interest in generative art and rule-based graphic design. To that end, we are developing an application for creating generative art and design using [Python][] programming code, called [NodeBox][]. With it, you can create 2-dimensional visuals (static, animated and interactive) that you can effortlessly export as a PDF document or QuickTime movie. NodeBox is open-source, well-documented and has a friendly community.
@@ -28,4 +27,3 @@ Frederik De Bleser
 Frederik graduated in software engineering in 2000 and in graphic design in 2004 and has been employed at the St. Lucas School of Arts since. Frederik is the main developer behind NodeBox.
 
 <http://www.enigmeta.com/>
-{% endblock %}

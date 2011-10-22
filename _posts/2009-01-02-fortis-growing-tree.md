@@ -1,13 +1,12 @@
-{% extends "_project.html" %}
-{%hyde
-    title: Fortis growing tree
-    client: Fortis
-    teaser: When the theme of the conference of one of the largest banks in Belgium is "grow", only a custom-written tree will do.
-    images:
-        - fortis1.jpg
-        - fortis2.jpg
-%}
-{% block project %}
+---
+layout: project
+title: Fortis growing tree
+client: Fortis
+teaser: When the theme of the conference of one of the largest banks in Belgium is "grow", only a custom-written tree will do.
+images:
+  - fortis1.jpg
+  - fortis2.jpg
+---
 The 2007 conference for Fortis was a special one. That year, they merged private and merchant banking, and needed a way to tell their top employees. They held the conference under the Louvre in Paris, and we were invited to create a special celebratory multimedia spectacle.
 
 The theme for their conference was "grow", something that matched our tastes perfectly. We wrote custom software showing off the best in generative design. We designed a custom, dynamic tree containing all of the faces of the Fortis employees that joined the  conference.
@@ -29,4 +28,3 @@ Once the presentation was over, the project was shown as a looping animation on 
 As a final touch, each of the employees received a poster of the tree with their photo in it. Since we could not print this in advance, we had to generate a PDF document on the scene, and let it print overnight. The result was a highly detailed print, where every employee could -- in true *Where's Wally* fashion -- look for their photo amongst the thousands of other "leaves".
 
 For this project, both the end result, presented in different media, and the design process were engaging. We happily noticed that employees were curious about the mechanics behind the project, and we were happy to explain.
-{% endblock %}

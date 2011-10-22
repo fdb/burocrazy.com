@@ -1,9 +1,7 @@
-{% extends "_page.html" %}
-{%hyde
-    title: "Welcome."
-%}
-{% block page %}
-
+---
+layout: default
+title: Welcome
+---
 We're a small graphic and web design firm located in Antwerp, Belgium. We design using custom tools and modern web frameworks. We love to design as well as code, and carry out  academic research in the field of graphic design.  We love open source, open standards and open communication.
 
 <h3>Our own tools</h3>
@@ -26,7 +24,8 @@ We created our own open source graphic design tool, called [NodeBox][], that we 
 	<div class="thumb"><a href="/media/img/workshop-mac.jpg" title="Student in a workshop environment."><img src="/media/img/thumb.workshop-mac.jpg" width="200" height="80" alt="Student in a workshop environment."></a></div>
 	<div class="thumb"><a href="/media/img/workshop-evil.jpg" title="Screenshot from 'evil font' by Valtteri Vitakoski."><img src="/media/img/thumb.workshop-evil.jpg" width="200" height="80" alt="Screenshot from 'evil font' by Valtteri Vitakoski."></a></div>
 	<div class="thumb"><a href="/media/img/workshop-sketch.jpg" title="Work in progress sketch."><img src="/media/img/thumb.workshop-sketch.jpg" width="200" height="80" alt="Work in progress sketch."></a></div>
-</div><div class="break"></div>
+</div>
+<div class="break"></div>
 
 We organize workshops to teach students and professionals modern graphic design principles, and to solicit feedback on the software. Whether they take one afternoon or two entire weeks, the results are always intriguing.
 
@@ -36,7 +35,8 @@ We organize workshops to teach students and professionals modern graphic design 
 <div class="thumbs">
 	<div class="thumb"><a href="/media/img/research-commonsense.jpg" title="The common sense graph allows the computer to reason like us."><img src="/media/img/thumb.research-commonsense.jpg" width="200" height="80" alt="The common sense graph allows the computer to reason like us."></a></div>
 	<div class="thumb"><a href="/media/img/research-prism.jpg" title="The prism algorithm finds a color palette for every concept."><img src="/media/img/thumb.research-prism.jpg" width="200" height="80" alt="The prism algorithm finds a color palette for every concept."></a></div>
-</div><div class="break"></div>
+</div>
+<div class="break"></div>
 
 The entire staff of Burocrazy (all two of us!) is working as researchers at St. Lucas School of Arts in Antwerp, Belgium, where we are developing the next wave of generative design tools. These machines can help brainstorm, come up with colors or shapes for any word, make compositions about recent news events, and analyze natural language to understand design briefings.
 
@@ -44,6 +44,4 @@ The entire staff of Burocrazy (all two of us!) is working as researchers at St. 
 
 
 <h3>Projects</h3>
-An archive of our projects is available at the [projects](/projects/) page.
-
-{% endblock %}
+An archive of our projects is available at the <a href="projects.html">projects</a> page.

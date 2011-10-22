@@ -1,5 +1,0 @@
-#!/bin/sh
-rm -rf deploy
-$HOME/Python/hyde/hyde.py -g
-rsync -r -v --delete deploy/* root@burocrazy.com:/www/burocrazy.com/public_html
-ssh root@burocrazy.com "chown -R www-data:www-data /www/burocrazy.com/public_html"

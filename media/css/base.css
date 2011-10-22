@@ -10,9 +10,9 @@ h1,h2,h3 { font-weight: bold; }
 ul { list-style-type: disc; list-style-position: inside; }
 p,ul { margin-bottom: 22px; }
 em { font-style: italic; }
-a:link,a:visited,a:hover,a:active { color: #c04f30; }
-#nav,#footer { font-family: Georgia,"Times New Roman",serif; }
-#nav,.small,#footer { font-size: 12px; line-height: 20px; }
+a { color: #c04f30; }
+nav,#footer { font-family: Georgia,"Times New Roman",serif; }
+nav,.small,#footer { font-size: 12px; line-height: 20px; }
 #footer { clear: both; margin-top:10px; border-top: 1px solid #ddd; }
 #footer { padding: 11px 0; overflow: auto; }
 #footer {  color: #444; }
@@ -27,7 +27,8 @@ div.firstrow { padding-top: 5px; }
 hr { border: 0; border-top: 1px solid #bbb; clear:both; margin-bottom: 5px; }
 div.break { clear: both; }
 .thumbs { margin-top: 5px; }
-.thumb { float: left; text-align: left; width: 204px; margin-left: 20px; margin-bottom: 10px;}
+.thumb { float: left; text-align: left; width: 204px; margin-right: 10px; margin-bottom: 10px; }
+#projects .thumb { height: 180px; }
 .thumb:first-child { margin-left: 0px;}
 .thumb img { float: none; display: block; border: 1px solid #999; padding: 1px; text-decoration: none; }
 .thumb { font-size: 12px; line-height: 20px; }
@@ -35,11 +36,11 @@ div.break { clear: both; }
 .thumb a:hover { text-decoration: underline; }
 .thumb a:hover img { text-decoration: none; }
 .thumb p { margin-bottom: 5px; }
-#nav { background: #3c0f25; color: #fff; margin-bottom: 5px; padding: 2px 0; text-transform: uppercase; font-family: "Lucida-Grande","Lucida Sans Unicode",Arial,sans-serif;font-size: 11px; }
-#nav li { display: inline; margin: 0 0.3em 0 0; padding: 0 0 0 0.6em; border-left: 1px solid #fff; }
-#nav li.first { border: none; }
-#nav li a { color: #f4f6df; text-decoration: none; }
-#nav li a:hover { text-decoration: underline; }
+nav ul { background: #3c0f25; color: #fff; margin-bottom: 5px; padding: 2px 0; text-transform: uppercase; font-family: "Lucida-Grande","Lucida Sans Unicode",Arial,sans-serif;font-size: 11px; }
+nav li { display: inline; margin: 0 0.3em 0 0; padding: 0 0 0 0.6em; border-left: 1px solid #fff; }
+nav li:first-child { border: none; }
+nav li a { color: #f4f6df; text-decoration: none; }
+nav li a:hover { text-decoration: underline; }
 .project p { font-size: 11px; line-height: 16px; }
 img.right { float: right; margin-left: 10px; }
 img.left { float: left; margin-right: 10px;}

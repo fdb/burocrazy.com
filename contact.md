@@ -1,8 +1,7 @@
-{% extends "_page.html" %}
-{%hyde
-    title: "Contact"
-%}
-{% block page %}
+---
+layout: default
+title: Contact
+---
 Whether you are looking for a unique design using modern techniques, or in need of a website that follows the latest web standards, you've come to the right place. We're small but devoted, and love to work with you.
 
 We can be reached at the following e-mail address:
@@ -15,4 +14,3 @@ Burocrazy<br>
 Osystraat 58<br>
 2060 Antwerpen<br>
 Belgium
-{% endblock %}

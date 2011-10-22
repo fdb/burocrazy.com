@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<div class="thumbs">
+{% for image in page.images %}
+	<div class="thumb"><a href="/media/projects/{{ image }}"><img src="/media/projects/thumb.{{ image }}" width="200" height="80" alt=""></a></div>
+{% endfor %} 
+</div>
+<div class="break"></div>
+<p class="small">Client: {{ page.client }}</p>
+
+{{ content }}

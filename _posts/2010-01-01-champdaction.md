@@ -1,13 +1,12 @@
-{% extends "_project.html" %}
-{%hyde
-    title: Champ d'Action logo and website
-    client: Champ d'Action
-    teaser: Creating a new brand identity and website in one week, on-site, sounds crazy? It is.
-    images: 
-        - champlogos.png
-        - champsite.jpg
-%}
-{% block project %}
+---
+layout: project
+title: Champ d'Action logo and website
+client: Champ d'Action
+teaser: Creating a new brand identity and website in one week, on-site, sounds crazy? It is.
+images: 
+  - champlogos.png
+  - champsite.jpg
+---
 The rebranding of Champ d'Action, a contemporary music ensemble, happened during an intense workshop week, where we did both the logo design and website. Champ d'Action is known for its creative approaches to both process and end result, something that corresponds to our way of working. So they got a set of designers together, including Burocrazy, to design a new identity, their seasonal brochure, and a new website, all in a week's time.
 
 The Champ d'Action logo
@@ -23,6 +22,7 @@ Just as with any site, the logo is prominently displayed at the top. However, si
 Projects: three of a kind
 =========================
 Just as with any other musical ensemble, Champ d'Action works on projects. These projects begin from vague ideas, and gradually form into concrete shape, finally to materialize as a finished production. Champ d'Action wanted to visualize this process of a project evolving from a rough sketch all the way to an archived project. Within our wiki, we built the idea of "state". 
+
 Whenever a new project was started, its state would be set to "sketch". This would be reflected in the design where the page looked like a scrapbook of loose ends. As the state progressed, so did the design, getting more rigid and aligning with the overall feel of the rest of the project. This allowed visitors to quickly grasp the advancement of a project.
 
 Custom content types
@@ -34,4 +34,3 @@ Instead of building a new content management system from scratch, we started out
 We mapped out our custom content types, attaching events to projects that could be arranged in a calendar. We extended the administration back-end by integrating a WYSIWYG editor and media framework, so website maintainers could easily adapt the pages to their liking.
 
 The system has proven to be reliable and fast. It is easy to use, so everyone within the organization is able to modify the content they manage, and spruce up pages with images, links and YouTube videos. For a public musical ensemble, the website is a crucial communication tool. Our solution makes that succeed.
-{% endblock %}

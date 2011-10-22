@@ -1,4 +1,8 @@
-*.pyc
-deploy
-deploy_tmp
-*.log
+# Build directories
+_site/
+
+# Mac OS X custom attribute files
+.DS_Store
+
+# Windows thumbnails
+Thumbs.db
