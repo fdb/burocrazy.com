@@ -14,13 +14,6 @@ We're strong believers in open source and free software. We publish most of our 
   [nodebox]:http://nodebox.net/
   [cc]:http://creativecommons.org/
 
-Tom De Smedt
-============
-<img src="/media/img/head-tom.jpg" width="80" height="80" class="bordered left" alt="Photo of Tom De Smedt">
-Tom graduated in software engineering in 2000 and in graphic design in 2004 and has been employed at the St. Lucas School of Arts since, pursuing a PhD on Artificial Creativity.
-
-<http://organisms.be/>
-
 Frederik De Bleser
 ==================
 <img src="/media/img/head-frederik.jpg" width="80" height="80" class="bordered left" alt="Photo of Frederik De Bleser">
