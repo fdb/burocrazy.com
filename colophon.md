@@ -9,8 +9,8 @@ This website uses the [Jekyll static website generator][jekyll]. Text is written
   [typogrify]: http://code.google.com/p/typogrify/
   [fancyzoom]:http://www.fancyzoom.com/
 
-This site is hosted on [Amazon S3][s3]. DNS is handled by [Gandi][].
+This site is hosted on [Linode][]. DNS is handled by [CloudFlare][].
 
-  [s3]: http://aws.amazon.com/s3/
-  [gandi]:http://www.gandi.net/
+  [linode]: http://www.linode.com/?r=4be4bc35d12677cff12e393c9f4dd167d9eb6dfb
+  [cloudflare]: http://www.cloudflare.com/
 

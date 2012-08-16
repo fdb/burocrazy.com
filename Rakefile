@@ -8,7 +8,7 @@ end
 
 desc 'Deploy to the live server'
 task :deploy => [:rebuild] do
-  sh 's3cmd sync _site/ s3://www.burocrazy.com'
+  sh 'rsync -rtz --delete _site/ burocrazy.com:/www/burocrazy.com/public_html/'
 end
 
 desc 'Run Jekyll in server mode'
