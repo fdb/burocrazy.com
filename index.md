@@ -2,7 +2,7 @@
 layout: default
 title: Welcome
 ---
-We're a small graphic and web design firm located in Antwerp, Belgium. We design using custom tools and modern web frameworks. We love to design as well as code, and carry out  academic research in the field of graphic design.  We love open source, open standards and open communication.
+We're a small graphic and web design firm located in Antwerp, Belgium. We design using custom tools and modern web frameworks. We love to design as well as code, and carry out academic research in the field of graphic design.  We love open source, open standards and open communication.
 
 <h3>Our own tools</h3>
 <div class="thumbs">
@@ -38,9 +38,9 @@ We organize workshops to teach students and professionals modern graphic design 
 </div>
 <div class="break"></div>
 
-The entire staff of Burocrazy (all two of us!) is working as researchers at St. Lucas School of Arts in Antwerp, Belgium, where we are developing the next wave of generative design tools. These machines can help brainstorm, come up with colors or shapes for any word, make compositions about recent news events, and analyze natural language to understand design briefings.
+Burocrazy staff work as researchers at St. Lucas School of Arts in Antwerp, Belgium, where we are developing the next wave of generative design tools. These machines can help brainstorm, come up with colors or shapes for any word, make compositions about recent news events, and analyze natural language to understand design briefings.
 
-<http://research.nodebox.net/>
+<http://www.emrg.be/>
 
 
 <h3>Projects</h3>
