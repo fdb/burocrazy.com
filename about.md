@@ -2,21 +2,40 @@
 layout: default
 title: About
 ---
-Burocrazy is a small design firm with just two people: Tom and Frederik. We both work at St. Lucas School of Arts, and Burocrazy allows us to do have one foot in reality and the other foot in the academic world.
+<img src="/media/img/head-frederik.jpg" width="80" height="80" class="bordered right" alt="Photo of Frederik De Bleser">
+Burocrazy is a small design and consultancy firm in Antwerp.
 
-We have a keen interest in generative art and rule-based graphic design. To that end, we are developing an application for creating generative art and design using [Python][] programming code, called [NodeBox][]. With it, you can create 2-dimensional visuals (static, animated and interactive) that you can effortlessly export as a PDF document or QuickTime movie. NodeBox is open-source, well-documented and has a friendly community.
+I graduated in software engineering in 2000 and in graphic design in
+2004 and have been employed at the St. Lucas School of Arts since.
+Burocrazy allows me to have one foot in reality and the other foot in
+the academic world.
 
-We try to use our generative tools for tackling otherwise difficult or impossible challenges, generating hundreds of page, intricate designs, and even brainstorming tools. This website shows you a few of these designs. This not only makes the end result, but also the process, intriguing.
+I have a keen interest in generative art and rule-based graphic design.
+To that end, I’m developing an application for creating generative art
+and design using [Python][] programming code, called [NodeBox][]. With
+it, you can create 2-dimensional visuals (static, animated and
+interactive) that you can effortlessly export as a PDF document or
+QuickTime movie. NodeBox is open-source, well-documented and has a
+friendly community.
 
-We're strong believers in open source and free software. We publish most of our own work under the [Creative Commons][cc].
+I try to use generative tools for tackling otherwise difficult or
+impossible challenges, generating hundreds of pages, intricate designs,
+and even as a brainstorming tool. This website shows you a few of these
+designs. This not only makes the end result, but also the process,
+intriguing.
 
-  [python]:http://www.python.org/
-  [nodebox]:http://nodebox.net/
-  [cc]:http://creativecommons.org/
+I’m a strong believer in open source and free software. I publish most
+of my own work as [open source][] or under the [Creative Commons][cc].
 
-Frederik De Bleser
-==================
-<img src="/media/img/head-frederik.jpg" width="80" height="80" class="bordered left" alt="Photo of Frederik De Bleser">
-Frederik graduated in software engineering in 2000 and in graphic design in 2004 and has been employed at the St. Lucas School of Arts since. Frederik is the main developer behind NodeBox.
+I blog at [enigmeta.com][].
 
-<http://www.enigmeta.com/>
+  [Python]: http://www.python.org/
+  [NodeBox]: http://nodebox.net/
+  [open source]: http://github.com/fdb/
+  [cc]: http://creativecommons.org/
+  [enigmeta.com]: http://www.enigmeta.com/
+
+
+
+
+
